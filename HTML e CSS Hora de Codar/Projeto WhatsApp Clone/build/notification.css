@@ -1,0 +1,33 @@
+.notification-container {
+  width: 100%;
+  height: 90px;
+  padding-top: 23px;
+  padding-left: 80px;
+  background-color: #9de1fe;
+  color: #384c65;
+  position: relative;
+  box-sizing: border-box;
+}
+.notification-container .fas.fa-bell-slash {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: #9de1fe;
+  background-color: #f5fcff;
+  position: absolute;
+  top: 20px;
+  left: 15px;
+}
+.notification-container p {
+  margin: 0;
+}
+.notification-container .receive-notification {
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+.notification-container .active-notification {
+  font-size: 13px;
+}

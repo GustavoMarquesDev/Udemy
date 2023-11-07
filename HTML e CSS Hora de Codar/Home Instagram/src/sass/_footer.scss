@@ -1,0 +1,32 @@
+footer {
+  text-align: left;
+  width: 1000px;
+  margin: 50px auto;
+
+  li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 10px;
+
+    a {
+      color: #00376b;
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
+  #copyright {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #8e8e8e;
+    margin-top: 10px;
+  }
+
+  @media (max-width: 450px) {
+    width: 90%;
+    text-align: center;
+
+    #footer-links li {
+      margin-bottom: 10px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@mixin tituloEparagrafo() {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main-banner {
+  background-image: url("../img/mainbanner.png");
+  background-size: cover;
+  background-position: center;
+  padding: 10rem 0;
+  position: relative;
+
+  h1 {
+    @include tituloEparagrafo();
+    font-size: 54px;
+  }
+  p {
+    @include tituloEparagrafo();
+    font-size: 32px;
+  }
+}

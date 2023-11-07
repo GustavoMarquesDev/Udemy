@@ -1,0 +1,51 @@
+#cta {
+  color: #fff;
+  background-color: #0000;
+  background-image: linear-gradient(#000c, #000c), url("../hrz-1.7acf7a33.jpg");
+  background-position: center;
+  background-repeat: repeat, repeat;
+  background-size: cover;
+  background-attachment: scroll, scroll;
+  background-origin: padding-box, padding-box;
+  background-clip: border-box, border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  display: flex;
+}
+
+#cta h3 {
+  margin-bottom: 1.2em;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+#cta .btn {
+  width: 30%;
+  margin: 0 auto;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+@media (width <= 780px) {
+  #cta h3 {
+    text-align: center;
+  }
+
+  #cta .btn {
+    width: 60%;
+  }
+}
+
+@media (width <= 450px) {
+  #cta h3 {
+    text-align: center;
+  }
+
+  #cta .btn {
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=_cta.css.map */

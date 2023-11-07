@@ -1,0 +1,40 @@
+@use "./navbar.scss";
+@use "./main_banner.scss";
+@use "./specialities_section.scss";
+@use "./pricing_container.scss";
+@use "./searchdomain.scss";
+@use "./contato_container.scss";
+@use "./footer.scss";
+
+body,
+html,
+textarea {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+
+  @media (max-width: 576px) {
+    overflow-x: hidden;
+  }
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+p {
+  color: #70747a;
+}
+
+@media screen and (max-width: 1100px) {
+  .plans-container {
+    width: 95%;
+  }
+  .plan {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}

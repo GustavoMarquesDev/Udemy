@@ -1,0 +1,230 @@
+#main-container {
+  flex-direction: row;
+  margin-top: 30px;
+  display: flex;
+}
+
+#main-container #banner-container {
+  text-align: right;
+  flex: 1 1 0;
+  width: 50%;
+}
+
+@media (width <= 450px) {
+  #main-container #banner-container {
+    display: none;
+  }
+}
+
+#main-container #form-container {
+  text-align: center;
+  flex: 1 1 0;
+  width: 50%;
+}
+
+#main-container #form-container img {
+  margin-left: -15px;
+}
+
+#main-container #form-container #form-box {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  width: 350px;
+  margin-top: 30px;
+}
+
+#main-container #form-container #form-box #logo-insta {
+  background-color: #fff;
+  width: 175px;
+  height: 51px;
+  margin: 30px auto 12px;
+}
+
+#main-container #form-container #form-box #login-form {
+  margin-top: 20px;
+}
+
+#main-container #form-container #form-box #login-form input {
+  background-color: #fafdfa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  width: 268px;
+  margin: 5px auto;
+  padding: 12px 9px;
+  font-size: 12px;
+  display: block;
+}
+
+#main-container #form-container #form-box #login-form input[type="submit"] {
+  color: #fff;
+  cursor: pointer;
+  background-color: #b2dffc;
+  border-color: #b2dffc;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 15px;
+  padding: 0;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#main-container #form-container #form-box .separator {
+  position: relative;
+}
+
+#main-container #form-container #form-box .separator .line {
+  border-top: 1px solid #dbdbdb;
+  width: 268px;
+  margin: 25px auto 35px;
+}
+
+#main-container #form-container #form-box .separator span {
+  text-transform: uppercase;
+  color: #bbb;
+  width: 50px;
+  margin-left: -25px;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  top: -6px;
+  left: 50%;
+}
+
+#main-container #form-container #form-box #facebook-login {
+  margin-bottom: 25px;
+}
+
+#main-container #form-container #form-box #facebook-login a {
+  color: #385185;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#main-container #form-container #form-box #facebook-login a img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+#main-container #form-container #form-box #facebook-login a span {
+  margin-top: 1px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#main-container #form-container #form-box #forgot-pass {
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+#main-container #form-container #form-box #forgot-pass a {
+  color: #373799;
+}
+
+@media (width <= 450px) {
+  #main-container #form-container #form-box {
+    border: none;
+    width: 100%;
+  }
+}
+
+#main-container #form-container #register-container {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  width: 350px;
+  margin-top: 10px;
+  padding: 25px;
+}
+
+#main-container #form-container #register-container p {
+  color: #262626;
+  font-size: 14px;
+}
+
+#main-container #form-container #register-container a {
+  color: #4a95f6;
+  font-weight: bold;
+}
+
+@media (width <= 450px) {
+  #main-container #form-container #register-container {
+    border: none;
+    width: 100%;
+  }
+}
+
+#main-container #form-container #get-app-container {
+  text-align: center;
+  width: 350px;
+}
+
+#main-container #form-container #get-app-container p {
+  margin: 20px 0;
+  font-size: 13px;
+}
+
+#main-container #form-container #get-app-container img {
+  width: 136px;
+  height: 40px;
+  margin: 0 3px;
+}
+
+@media (width <= 450px) {
+  #main-container #form-container #get-app-container, #main-container #form-container {
+    border: none;
+    width: 100%;
+  }
+
+  #main-container {
+    margin-top: 0;
+  }
+}
+
+footer {
+  text-align: left;
+  width: 1000px;
+  margin: 50px auto;
+}
+
+footer li {
+  text-transform: uppercase;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+footer li a {
+  color: #00376b;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+footer #copyright {
+  text-transform: uppercase;
+  color: #8e8e8e;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+@media (width <= 450px) {
+  footer {
+    text-align: center;
+    width: 90%;
+  }
+
+  footer #footer-links li {
+    margin-bottom: 10px;
+  }
+}
+
+*, html, body, a {
+  box-sizing: border-box;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  text-decoration: none;
+  list-style: none;
+}
+
+/*# sourceMappingURL=main.css.map */

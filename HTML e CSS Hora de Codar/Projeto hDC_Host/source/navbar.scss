@@ -1,0 +1,63 @@
+.navbar-container {
+  width: 100%;
+  height: 80px;
+  background-color: #232a31;
+  padding: 0 2em;
+  position: relative;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  nav {
+    position: relative;
+
+    .logo {
+      width: 50px;
+      margin-top: 15px;
+    }
+
+    .navbar-itens {
+      list-style: none;
+      position: absolute;
+      display: inline-block;
+      height: 80px;
+      line-height: 80px;
+      margin: 0;
+      right: 0;
+
+      li {
+        display: inline-block;
+        text-transform: uppercase;
+        margin-left: 25px;
+
+        @media (max-width: 576px) {
+          font-size: 12px;
+          margin-left: 10px;
+        }
+
+        a {
+          color: #fff;
+          text-decoration: none;
+          transition: all ease 0.5s;
+
+          &:hover {
+            color: #ccc;
+          }
+        }
+
+        .default-btn {
+          padding: 15px 20px;
+          background-color: #2cc76a;
+          border-radius: 5px;
+          color: #fff;
+
+          &:hover {
+            background-color: #22bb5f;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"mappings":"","sources":["src/sass/_variables.scss"],"sourcesContent":["$primary: #eb1ccc;\r\n$secondary: #95989a;\r\n$text-color: #fff;\r\n$text-secondary: #000;\r\n$text-tertiary: #5d5d5d;\r\n"],"names":[],"version":3,"file":"_variables.css.map","sourceRoot":"/__parcel_source_root/"}

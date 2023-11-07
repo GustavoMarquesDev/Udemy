@@ -1,0 +1,57 @@
+.searchdomain-container {
+  background-color: #34454e;
+  text-align: center;
+  padding: 5em 0;
+
+  @media (max-width: 576px) {
+    padding: 3em 2em;
+  }
+
+  h2 {
+    color: #fff;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  p {
+    color: #d5d5d5;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  input {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+
+    @media (max-width: 576px) {
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    &[type="text"] {
+      margin-bottom: 25px;
+      width: 60%;
+      padding: 20px;
+      font-size: 20px;
+
+      @media (max-width: 576px) {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+      }
+    }
+
+    &[type="submit"] {
+      background-color: #2cc76a;
+      padding: 15px 30px;
+      color: #fff;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  }
+}

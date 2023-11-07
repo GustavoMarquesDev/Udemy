@@ -1,0 +1,122 @@
+#event-description {
+  color: #fff;
+  background-color: #0000;
+  background-image: linear-gradient(#000c, #000c), url("../hrz-5.645f7720.jpg");
+  background-position: center;
+  background-repeat: repeat, repeat;
+  background-size: cover;
+  background-attachment: scroll, scroll;
+  background-origin: padding-box, padding-box;
+  background-clip: border-box, border-box;
+  justify-content: space-around;
+  align-items: center;
+  height: 85vh;
+  display: flex;
+}
+
+#event-description #disclaimer h2 {
+  color: #eb1ccc;
+  margin-bottom: 1em;
+  font-size: 3em;
+}
+
+#event-description #disclaimer .event-date {
+  color: #eb1ccc;
+  font-weight: bold;
+}
+
+#event-description #disclaimer .about-event {
+  text-transform: uppercase;
+  max-width: 350px;
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#event-description #disclaimer p {
+  margin-bottom: .3em;
+  font-size: 1.2em;
+}
+
+#event-description .subscription-form {
+  background-color: #95989a;
+  max-width: 22%;
+  padding: 2em;
+}
+
+#event-description .subscription-form p {
+  color: #000;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+}
+
+#event-description .subscription-form .form-group {
+  flex-direction: column;
+  margin-bottom: .8em;
+  display: flex;
+}
+
+#event-description .subscription-form .form-group label {
+  color: #5d5d5d;
+  margin-bottom: .3em;
+  font-weight: bold;
+}
+
+#event-description .subscription-form .form-group input, #event-description .subscription-form .form-group select {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 6px 8px;
+}
+
+@media (width <= 780px) {
+  #event-description {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  #event-description #disclaimer {
+    text-align: center;
+    padding: 10px;
+  }
+
+  #event-description .subscription-form {
+    max-width: 60%;
+    padding: 10px;
+  }
+}
+
+@media (width <= 450px) {
+  #event-description {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #event-description #disclaimer {
+    padding: 2em;
+  }
+
+  #event-description #disclaimer h2 {
+    margin-bottom: .5em;
+  }
+
+  #event-description .subscription-form {
+    max-width: 70%;
+    margin-bottom: 2em;
+  }
+}
+
+@media (width <= 350px) {
+  #event-description #disclaimer {
+    text-align: center;
+    padding: 10px;
+  }
+
+  #event-description .subscription-form {
+    max-width: 85%;
+    padding: 10px;
+  }
+}
+
+/*# sourceMappingURL=_header.css.map */
