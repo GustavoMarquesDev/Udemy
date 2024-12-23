@@ -1,0 +1,14 @@
+{
+    "nome": [
+        "Pedro",
+        "João"
+    ],
+    "idade": [
+        10,
+        20
+    ],
+    "have_carro": [
+        true,
+        false
+    ]
+}

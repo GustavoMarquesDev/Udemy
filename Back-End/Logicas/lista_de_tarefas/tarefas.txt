@@ -1,0 +1,1 @@
+['comer bolo', 'comer uma maça logo de manhã', 'estudar JavaScript', 'nadar pelado', 'comer']
