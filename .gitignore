@@ -1,0 +1,146 @@
+# General
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.log
+
+# Node.js
+node_modules/
+.npm/
+.yarn/
+.pnp.cjs
+.pnp.loader.mjs
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv/
+venv/
+Pipfile.lock
+poetry.lock
+
+# Django & Flask
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+
+# Java & Kotlin
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.gradle/
+build/
+out/
+
+# Go
+bin/
+*.exe
+*.test
+
+# Rust
+target/
+*.rs.bk
+
+# PHP
+vendor/
+composer.lock
+
+# Ruby
+.bundle/
+vendor/bundle/
+*.gem
+
+# Dotnet
+*.pdb
+*.exe
+*.dll
+*.nuspec
+
+# Docker
+**/docker-compose.override.yml
+**/.dockerignore
+**/docker-compose.yml
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+mysql/
+postgres/
+
+# Logs & Debugging
+*.log
+*.out
+*.pid
+*.seed
+*.cover
+
+# Testing
+.nox/
+.tox/
+.pytest_cache/
+.coverage
+coverage.xml
+junit.xml
+
+# Static Analysis & Linters
+.mypy_cache/
+.pyre/
+.pytype/
+.eslintcache/
+
+# Sphinx documentation
+/docs/_build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS & Linux
+.trash/
+.apdisk/
+.fseventsd/
+.spotlight-v100/
+
+# Windows
+$RECYCLE.BIN/
+System Volume Information/
+
+# JetBrains
+.idea/
+*.iml
+out/
+
+# Webpack & Parcel
+.parcel-cache/
+dist/
+.cache/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Kubernetes
+kustomize/
+
+# Helm
+charts/
+release/
+values.yaml
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.tmp

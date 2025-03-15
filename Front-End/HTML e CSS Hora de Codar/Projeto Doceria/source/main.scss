@@ -1,0 +1,44 @@
+@use "./reset.scss";
+@use "./sidebar.scss";
+@use "./bemvindo.scss";
+@use "./sobre.scss";
+@use "./galeria.scss";
+@use "./contato.scss";
+@mixin h1eh2() {
+  margin-bottom: 30px;
+  color: #006599;
+}
+
+/* GERAL */
+
+html {
+  font-family: "Open sans", "sans-serif";
+  color: #373a3c;
+}
+
+a {
+  transition: 0.5s;
+}
+
+/* CONTEUDO */
+
+.content {
+  position: absolute;
+  left: 300px;
+  width: calc(100% - 300px);
+
+  h1 {
+    font-size: 48px;
+    @include h1eh2();
+  }
+  h2 {
+    font-size: 35px;
+    @include h1eh2();
+  }
+
+  section {
+    padding-left: 50px;
+  }
+}
+
+// bem vindo

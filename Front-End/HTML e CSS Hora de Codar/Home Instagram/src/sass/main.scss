@@ -1,0 +1,15 @@
+@use "./main-section";
+@use "./footer";
+
+*,
+html,
+body,
+a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  background-color: #fafafa;
+  text-decoration: none;
+  list-style: none;
+}

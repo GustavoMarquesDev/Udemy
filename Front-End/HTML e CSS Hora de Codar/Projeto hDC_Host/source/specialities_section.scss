@@ -1,0 +1,47 @@
+.specialties-container {
+  padding: 5em 0;
+
+  ul {
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+
+    @media (max-width: 900px) {
+      flex-wrap: wrap;
+    }
+
+    li {
+      flex: 1 1 200px;
+      list-style: none;
+      text-align: center;
+      padding: 20px;
+
+      h3 {
+        margin-bottom: 25px;
+      }
+
+      p {
+        line-height: 24px;
+      }
+
+      .fas {
+        font-size: 60px;
+        margin-bottom: 15px;
+      }
+
+      .fa-shield-alt {
+        color: #2cc76a;
+      }
+
+      .fa-rocket {
+        color: #ef3f29;
+      }
+      .fa-comments {
+        color: #ef8f29;
+      }
+    }
+  }
+}

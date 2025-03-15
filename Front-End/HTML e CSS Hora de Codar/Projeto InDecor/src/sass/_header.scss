@@ -1,0 +1,121 @@
+@use "./variables";
+
+@mixin color {
+  color: variables.$primary;
+}
+
+#event-description {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../img/hrz-5.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: variables.$text-color;
+
+  #disclaimer {
+    h2 {
+      @include color();
+      font-size: 3em;
+      margin-bottom: 1em;
+    }
+
+    .event-date {
+      @include color();
+      font-weight: bold;
+    }
+
+    .about-event {
+      font-size: 2em;
+      text-transform: uppercase;
+      max-width: 350px;
+      font-weight: bold;
+      margin-bottom: 1em;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 0.3em;
+    }
+  }
+
+  .subscription-form {
+    background-color: variables.$secondary;
+    padding: 2em;
+    max-width: 22%;
+
+    p {
+      font-size: 1.5em;
+      color: variables.$text-secondary;
+      margin-bottom: 1em;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0.8em;
+
+      label {
+        color: variables.$text-tertiary;
+        margin-bottom: 0.3em;
+        font-weight: bold;
+      }
+
+      input,
+      select {
+        padding: 6px 8px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+      }
+    }
+  }
+
+  @media (max-width: 780px) {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+
+    #disclaimer {
+      padding: 10px;
+      text-align: center;
+    }
+
+    .subscription-form {
+      max-width: 60%;
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    flex-direction: column;
+    height: auto;
+
+    #disclaimer {
+      padding: 2em;
+
+      h2 {
+        margin-bottom: 0.5em;
+      }
+    }
+
+    .subscription-form {
+      max-width: 70%;
+      margin-bottom: 2em;
+    }
+  }
+
+  @media (max-width: 350px) {
+    #disclaimer {
+      padding: 10px;
+      text-align: center;
+    }
+
+    .subscription-form {
+      max-width: 85%;
+      padding: 10px;
+    }
+  }
+}

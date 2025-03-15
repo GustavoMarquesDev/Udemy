@@ -1,0 +1,17 @@
+{
+  "name": "home-instagram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html src/sass/main.scss --no-cache",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.1",
+    "parcel": "^2.10.1",
+    "sharp": "^0.31.3"
+  }
+}

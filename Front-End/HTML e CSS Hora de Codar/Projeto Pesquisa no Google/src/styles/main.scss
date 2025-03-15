@@ -1,0 +1,18 @@
+@use "./header";
+@use "./main-section";
+
+*,
+body,
+a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+
+  a,
+  a:visited {
+    color: #1a0dab;
+  }
+}
